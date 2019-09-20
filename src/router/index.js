@@ -7,6 +7,7 @@ const Cart = () => import ('@/pages/cart/Cart')
 const Profile = () => import ('@/pages/profile/Profile')
 const Category = () => import ('@/pages/category/Category')
 const Detai = () => import ('@/pages/detai/Detai')
+const LoGin = () => import ('@/pages/login/LoGin')
 
 export default new Router({
   routes: [
@@ -33,6 +34,10 @@ export default new Router({
 		{
 			path:'/detai/:iid',
 			component:Detai
+		},
+		{
+			path:'/login',
+			component:LoGin
 		}
   ]
 })

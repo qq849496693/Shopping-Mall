@@ -3,7 +3,7 @@
     <nav-bar class="cate-gory">
       <div slot="center">分类</div>
     </nav-bar>
-    <cate-ltem></cate-ltem>
+    <cate-ltem :titlts="['哈哈','呵呵','嘿嘿','吼吼']" ></cate-ltem>
   </div>
 </template>
 
@@ -15,7 +15,7 @@
     components:{
       NavBar,
       CateLtem
-    }
+    },
   }
 </script>
 

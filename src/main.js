@@ -7,6 +7,12 @@ import './assets/css/base.css'
 import './assets/css/iconfont.css'
 import store from './store'
 
+import { Button, Field } from 'vant';
+import 'vant/lib/index.css';
+
+Vue.use(Button);
+Vue.use(Field);
+
 Vue.config.productionTip = false
 
 Vue.prototype.$bus = new Vue()

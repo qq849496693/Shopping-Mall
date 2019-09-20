@@ -3,6 +3,7 @@
     <nav-bar class="navbar-center">
       <div slot="left">返回</div>
       <div slot="center">个人中心</div>
+      <div slot="right" @click="headleClick">登入/注册</div>
     </nav-bar>
     <pro-file-center></pro-file-center>
     <pro-file-run></pro-file-run>
@@ -20,6 +21,12 @@
       NavBar,
       ProFileCenter,
       ProFileRun
+    },
+    methods:{
+      headleClick(){
+        this.$router.push('/login')
+      }
+      
     }
   }
 </script>

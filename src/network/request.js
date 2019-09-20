@@ -14,7 +14,7 @@ export function request(config) {
 	},err => {
 		consoloe.log(err);
 	})
-	 // 2.2相应拦截
+	 // 2.2响应拦截
 	 instance.interceptors.response.use(res => {
 		 return res.data
 	 }, err => {

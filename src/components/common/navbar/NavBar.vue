@@ -1,4 +1,4 @@
-<template> 
+<template>
 	<div class="nav-bar">
 		<div class="left"><slot name="left"></slot></div>
 		<div class="center"><slot name="center"></slot></div>
@@ -20,7 +20,7 @@
 		text-align: center;
 	}
 	.left, .right{
-		width:60px;
+		width:80px;
 	}
 	.center{
 		flex:1;
